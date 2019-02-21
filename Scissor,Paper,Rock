@@ -1,0 +1,16 @@
+import random
+import getpass
+player_wins=["ScissorPaper","PaperStone","StoneScissor"]
+choice=["Scissor","Paper","Rock"]
+player1=random.choice(choice)
+player2=getpass.getpass("Enter Player 2 choice ")
+if player1+player2 in player_wins:
+    print("Player 1 wins")
+    print("Player 1 enters ",player1)
+elif player2+player1 in player_wins:
+    print("Player 2 wins")
+    print("Player 1 enters ",player1)
+else :
+    print("It's a tie")
+    print("player 1 enters ",player1)
+    print("player 2 enters ",player2)
