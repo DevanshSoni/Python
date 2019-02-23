@@ -1,6 +1,6 @@
 import random
 import getpass
-player_wins=["ScissorPaper","PaperStone","StoneScissor"]
+player_wins=["ScissorPaper","PaperRock","RockScissor"]
 choice=["Scissor","Paper","Rock"]
 player1=random.choice(choice)
 player2=getpass.getpass("Enter Player 2 choice ")
